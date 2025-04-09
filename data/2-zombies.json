@@ -1,0 +1,40 @@
+{
+  "Humans": [
+    {
+      "Movement": 0,
+      "Id": 0,
+      "Position": { "X": 950, "Y": 6000 },
+      "CanMove": false
+    },
+    {
+      "Movement": 0,
+      "Id": 1,
+      "Position": { "X": 8000, "Y": 6100 },
+      "CanMove": false
+    }
+  ],
+  "Zombies": [
+    {
+      "NextPosition": { "X": 2737, "Y": 6831 },
+      "Movement": 400,
+      "Id": 0,
+      "Position": { "X": 3100, "Y": 7000 },
+      "CanMove": true
+    },
+    {
+      "NextPosition": { "X": 11115, "Y": 6990 },
+      "Movement": 400,
+      "Id": 1,
+      "Position": { "X": 11500, "Y": 7100 },
+      "CanMove": true
+    }
+  ],
+  "Score": 0,
+  "CurrentPlayer": {
+    "Movement": 1000,
+    "WeaponRange": 2000,
+    "Id": 0,
+    "Position": { "X": 5000, "Y": 0 },
+    "CanMove": true
+  }
+}

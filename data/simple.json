@@ -1,0 +1,27 @@
+{
+  "Humans": [
+    {
+      "Movement": 0,
+      "Id": 0,
+      "Position": { "X": 8250, "Y": 4500 },
+      "CanMove": false
+    }
+  ],
+  "Zombies": [
+    {
+      "NextPosition": { "X": 8250, "Y": 8599 },
+      "Movement": 400,
+      "Id": 0,
+      "Position": { "X": 8250, "Y": 8999 },
+      "CanMove": true
+    }
+  ],
+  "Score": 0,
+  "CurrentPlayer": {
+    "Movement": 1000,
+    "WeaponRange": 2000,
+    "Id": 0,
+    "Position": { "X": 0, "Y": 0 },
+    "CanMove": true
+  }
+}
